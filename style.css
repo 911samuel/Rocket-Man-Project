@@ -6,8 +6,23 @@
 body {
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
     font-family: 'Roboto', sans-serif;
-    font-size: 36px;
+    font-size: 28px;
+    font-weight: lighter;
     width: 100%;
+    position: absolute;
+    background-image: url('spacex-OHOU-5UVIYQ-unsplash.jpg'); 
+    background-size: cover;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1;
 }
 
 .container {
@@ -21,9 +36,10 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 90%;
-    padding: 50px;
+    width: 97%;
+    padding: 30px;
     justify-content: space-between;
+    background-color: white;
 }
 
 .rocket {
@@ -32,7 +48,8 @@ body {
 }
 
 .rocketInfo {
-    font-weight: bolder;
+    font-size: 46px;
+    font-weight: 900;
 }
 
 ul {
@@ -45,13 +62,38 @@ li {
     font-size: 24px;
     font-weight: lighter;
     margin: 0 20px;
-    opacity: 0.75;
+    opacity: 0.7;
 }
 
 
 .content {
     flex-basis: 100%;
-    padding-top: 105px;
+    width: 90%;
+    padding: 0 50px;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    color: white;
+    position: relative;
+}
+
+.supremeRocket {
+    font-size: 68px;
+    font-weight: 100;
+}
+
+.rocketDescription {
+    font-size: 36px;
+    font-weight: 100;
+    padding: 30px 0;
+}
+
+button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 15px 50px;
+    font-size: 28px;
+    font-weight: 100;
 }
 
 .footer {
