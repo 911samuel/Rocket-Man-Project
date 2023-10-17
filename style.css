@@ -70,7 +70,7 @@ li {
     flex-basis: 100%;
     width: 90%;
     padding: 0 50px;
-    padding-top: 300px;
+    padding-top: 150px;
     padding-bottom: 150px;
     color: white;
     position: relative;
@@ -263,6 +263,36 @@ p {
 
 .rocketCareInfo {
     font-size: 24px;
+}
+
+.grid {
+    flex-basis: 100%;
+    width: 100%;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 5px;
+    grid-column-gap: 30px;
+}
+
+.items {
+    font-size: 16px;
+}
+ .items1, .items2, .items3, .items8 {
+    opacity: 0.5;
+    font-size: 14px;
+ }
+
+.items4 img {
+    width: 30px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.items5, .items9, .items13 {
+    font-size: 20px;
 }
 
 
